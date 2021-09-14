@@ -4,12 +4,22 @@
     margin: 0;
     padding: 0;
 }
+h1
+{
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 14px;
+    /*padding-top: 15px;*/
+    font-weight: 600;
+}
 /* HEADER */
 header
+
+.logo
 {
-    background-color: #fff;
     height: 63px;
-    box-shadow: 5px #fff
+    background-color: #fff;
+    width: 100%;
 }
 header img
 {
@@ -17,4 +27,24 @@ header img
     margin-right: auto;
     margin-left: auto;
     padding-top: 22px;
+}
+.place
+{
+    height: 50px;
+    width: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.place2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.place i
+{
+    padding-top: 15px;
+    padding-left: 200px;
 }
