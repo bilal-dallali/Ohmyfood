@@ -15,42 +15,26 @@ h2
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 14px;
-    /*padding-top: 15px;*/
+    padding-top: 15px;
     font-weight: 600;
 }
 /* HEADER */
-header
 
-/*.logo
-{
-    height: 63px;
-    background-color: #fff;
-    width: 100%;
-}*/
-header img
-{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 22px;
-}
 .place
 {
     height: 50px;
     width: 100%;
     background-color: #eaeaea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .place2
 {
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .place i
 {
     padding-top: 15px;
-    padding-left: 200px;
+    padding-right: 3px;
 }
