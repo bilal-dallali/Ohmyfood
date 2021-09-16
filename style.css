@@ -3,6 +3,7 @@
 {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 h1
 {
@@ -19,7 +20,10 @@ h2
     font-weight: 600;
 }
 /* HEADER */
-
+.logo
+{
+    
+}
 .place
 {
     height: 50px;
@@ -37,4 +41,27 @@ h2
 {
     padding-top: 15px;
     padding-right: 3px;
+}
+
+/* SECTION 1 - RESERVATION */
+#reservation
+{
+    background-color: #f6f6f6;
+}
+#reservation h3
+{
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 44px;
+    font-size: 18px;
+}
+#reservation p
+{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 24px;
 }
