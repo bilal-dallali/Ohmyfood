@@ -6,7 +6,13 @@
 }
 h1
 {
-    font-family: 'Roboto';
+    font-family: 'Shrikhand', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+h2
+{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 14px;
     /*padding-top: 15px;*/
@@ -15,12 +21,12 @@ h1
 /* HEADER */
 header
 
-.logo
+/*.logo
 {
     height: 63px;
     background-color: #fff;
     width: 100%;
-}
+}*/
 header img
 {
     display: block;
