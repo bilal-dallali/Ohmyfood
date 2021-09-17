@@ -85,5 +85,5 @@ header
 .exploration:hover
 {
     cursor: pointer;
-    background-color: #aliceblue;
+    background-color: aliceblue;
 }
