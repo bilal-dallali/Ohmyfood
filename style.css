@@ -19,10 +19,12 @@ h2
     padding-top: 15px;
     font-weight: 600;
 }
+
+
 /* HEADER */
-.logo
+header
 {
-    
+    box-shadow: 0 0 0.5rem #000;
 }
 .place
 {
@@ -64,4 +66,24 @@ h2
     font-size: 16px;
     text-align: center;
     padding-top: 24px;
+}
+.exploration
+{
+    width: 218px;
+    height: 50px;
+    margin: 35px auto 57px auto;
+    display: flex;
+    justify-content: center;
+    background-color: #bf64db;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 14px;
+    font-weight: 500;
+}
+.exploration:hover
+{
+    cursor: pointer;
+    background-color: #aliceblue;
 }
