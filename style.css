@@ -30,8 +30,8 @@ header
 .logo
 {
     padding-bottom: 15px;
-    
-    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+    margin-bottom: 10px;
+    box-shadow: 15px #000;
 }
 .place
 {
@@ -99,7 +99,68 @@ header
     padding-top: 14px;
     font-weight: 500;
 }
-.exploration:hover
+.exploration-btn:hover
 {
     cursor: pointer;
+}
+
+
+/* SECTION 2 - FUNCTION */
+#function h3
+{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 24px;
+    padding-bottom: 35px;
+}
+.function-icons
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 95%;
+    max-width: 1200px;
+}
+.function-icon
+{
+    background: #f6f6f6;
+    width: auto;
+    height: 70px;
+    /*justify-content: center;*/
+    display: flex;
+    align-items: center;
+    margin: 15px 20px;
+    position: relative;
+    box-shadow: 5px 5px 1px #f2f2f2;
+    border-radius: 20px;
+}
+.function-icon:hover
+{
+    cursor: pointer;
+}
+.number
+{
+    background-color: #9356dc;
+    color: #fff;
+    position: absolute;
+    padding: 2px 7px 2px 7px;
+    border-radius: 50%;
+    /*transform: translateX(-50%);*/
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 38px;
+}
+.icon
+{
+    color: #7E7E7E;
+    padding: 0 15px 0 30px;
+}
+.function-icon p
+{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    color: black;
+    font-weight: bold;
 }
