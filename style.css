@@ -29,9 +29,9 @@ header
 }
 .logo
 {
-    padding-bottom: 15px;
-    margin-bottom: 10px;
-    box-shadow: 15px #000;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 4px #cfcfcf;
 }
 .place
 {
@@ -91,17 +91,20 @@ header
     margin: 40px auto 60px auto;
     display: flex;
     justify-content: center;
-    background-color: #bf64db;
+    background: linear-gradient(#e26fda, #ae5fdb);
     border-radius: 25px;
     border: none;
     color: #fff;
     font-size: 16px;
     padding-top: 14px;
     font-weight: 500;
+    box-shadow: 3px 3px 5px /*#f2f2f2*/#c5c5c5;
 }
 .exploration-btn:hover
 {
     cursor: pointer;
+    box-shadow: 5px 5px 5px #c5c5c5;
+    background: linear-gradient(#e07eda, #9d66dc);
 }
 
 
@@ -122,22 +125,27 @@ header
     width: 95%;
     max-width: 1200px;
 }
+.function-icon:hover .icon
+{
+    color: #9356dc;
+}
 .function-icon
 {
     background: #f6f6f6;
     width: auto;
     height: 70px;
-    /*justify-content: center;*/
     display: flex;
     align-items: center;
     margin: 15px 20px;
     position: relative;
-    box-shadow: 5px 5px 1px #f2f2f2;
+    box-shadow: 5px 5px 5px #e7e7e7;
     border-radius: 20px;
 }
 .function-icon:hover
 {
     cursor: pointer;
+    background: #f5edff;
+    box-shadow: 8px 8px 5px #e7e7e7;
 }
 .number
 {
@@ -146,7 +154,6 @@ header
     position: absolute;
     padding: 2px 7px 2px 7px;
     border-radius: 50%;
-    /*transform: translateX(-50%);*/
     z-index: 1;
     margin-left: 10px;
     margin-top: 38px;
