@@ -98,7 +98,7 @@ header
     font-size: 16px;
     padding-top: 14px;
     font-weight: 500;
-    box-shadow: 3px 3px 5px /*#f2f2f2*/#c5c5c5;
+    box-shadow: 3px 3px 5px #c5c5c5;
 }
 .exploration-btn:hover
 {
@@ -186,6 +186,14 @@ header
 {
     background-color: #f6f6f6;
 }
+a
+{
+    text-decoration: none;
+}
+a h4, p
+{
+    color: #000;
+} 
 #restaurant h3
 {
     font-weight: bold;
@@ -205,6 +213,11 @@ header
     border-radius: 15px;
     background: #fff;
     margin-left: 20px;
+}
+.cubeRestaurant:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 .imgRestaurant1 img
 {
