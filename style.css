@@ -204,6 +204,7 @@ a h4, p
 .cubesRestaurant
 {
     padding-top: 15px;
+    padding-bottom: 50px;
 }
 .cubeRestaurant
 {
@@ -255,4 +256,19 @@ a h4, p
     padding-left: 10px;
     padding-right: 10px;
     font-weight: bold;
+}
+
+
+/* FOOTER */
+footer
+{
+    background: #353535;
+}
+h5
+{
+    font-size: 24px;
+    font-family: 'Shrikhand', sans-serif;
+    color: #fff;
+    padding-top: 25px;
+    padding-left: 25px;
 }
