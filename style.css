@@ -216,7 +216,7 @@ a h4, p
 .cubeRestaurant:hover
 {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.025);
 }
 .imgRestaurant1 img
 {
@@ -234,4 +234,25 @@ a h4, p
 {
     padding-left: 15px;
     padding-top: 10px;
+}
+.new
+{
+    position: absolute;
+    right: 36px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: #99e2d0;
+    min-height: 30px;
+    vertical-align: middle;
+}
+.new p
+{
+    color: #008766;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 7px;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
 }
