@@ -49,7 +49,6 @@ header
 .place i
 {
     padding-top: 20px;
-    padding-right: auto;
     padding-bottom: 20px;
     font-size: 18px;
 }
@@ -133,7 +132,7 @@ header
 .function-icon
 {
     background: #f6f6f6;
-    width: auto;
+    width: 95%;
     height: 70px;
     display: flex;
     align-items: center;
