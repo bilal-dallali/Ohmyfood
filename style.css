@@ -341,4 +341,36 @@ footer p
         margin-left: 28px;
         margin-right: 28px;
     }
+    .cubeRestaurant12
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    a
+    {
+        width: 50%;
+    }
+    .cubeRestaurant34
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .cubesRestaurant
+    {
+        padding-top: 15px;
+        padding-bottom: 50px;
+
+    }
+    .cubeRestaurant
+    {
+        width: 95%;
+        border-radius: 15px;
+        margin-right: 28px;
+    }
 }
