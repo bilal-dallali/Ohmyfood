@@ -274,15 +274,24 @@ a h4, p
 }
 .cubeRestaurant i
 {
-    
     margin-top: 15px;
-    padding-right: 15px;
+    margin-right: 15px;
 }
-.cubeRestaurant i:active
+.pink-heart
 {
-    color: #b168de;
-    border: none;
+    display: none;
+    color: #fff;
 }
+.white-heart:active
+{
+    display: none;
+}
+.white-heart:active .pink-heart
+{
+    display: flex;
+    color: linear-gradient(#a05adc, #e370da);
+}
+
 
 /* FOOTER */
 footer
