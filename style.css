@@ -284,13 +284,24 @@ a h4, p
 }
 .white-heart
 {
+    position: absolute;
     color: #000;
+    background-color: #fff;
+    z-index: 2;
+    transition: color 4s;
+    transition: transform 400ms;
 }
-.white-heart:hover
+.white-heart:active
 {
-    fill: yellow;
+    color: #fff;
+    z-index: 0;
 }
-
+.pink-heart
+{
+    position: relative;
+    z-index: 1;
+    color: #c366db;
+}
 
 /* FOOTER */
 footer
@@ -430,14 +441,12 @@ h5
 #menu
 {
     background: #f6f6f6;
-    margin-top: -15px;
 }
 .title-icon-menu
 {
     display: flex;
     justify-content: space-between;
     border-radius: 50px;
-    z-index: 1;
 }
 .title-icon-menu i
 {
