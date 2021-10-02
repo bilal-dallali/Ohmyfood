@@ -432,21 +432,31 @@ h5
 
 
 /* SECTION 1 - BACKGROUND-IMAGE */
+
 #background-image img
 {
     width: 100%;
+    margin-bottom: 0;
+    object-fit: cover;
+    max-height: 450px;
 }
 
 /* SECTION 2 - MENUS */
 #menu
 {
-    background: #f6f6f6;
+    background-color: #f6f6f6;
+    border-radius: 40px 40px 0 0;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    margin-top: -40px;
+    height: auto;
 }
 .title-icon-menu
 {
     display: flex;
     justify-content: space-between;
-    border-radius: 50px;
+    padding-top: 25px;
 }
 .title-icon-menu i
 {
@@ -457,4 +467,65 @@ h5
 .title-icon-menu h1
 {
     padding-left: 20px;
+    padding-bottom: 0px;
+}
+.meals
+{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+.meal-parts
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+.meal-parts h1
+{
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.divider
+{
+    background-color: #99e2d0;
+    width: 40px;
+    height: 3px;
+    margin-top: 5px;
+}
+
+.meal
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #e7e7e7;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.meal h4
+{
+    padding-bottom: 15px;
+}
+.meal p
+{
+    padding-bottom: 0;
+}
+.description-price
+{
+    display: flex;
+    justify-content: space-between;
+}
+.meal:hover
+{
+    cursor: pointer;
+    box-shadow: 8px 8px 8px 8px #e7e7e7;
 }
