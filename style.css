@@ -472,7 +472,7 @@ h5
 .meals
 {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     width: auto;
 }
 .meal-parts
@@ -582,4 +582,8 @@ h5
 .meal:hover .verified
 {
     color: #99e2d0;
+}
+.order
+{
+    padding-bottom: 40px;
 }
