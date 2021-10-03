@@ -493,7 +493,7 @@ h5
 {
     background-color: #99e2d0;
     width: 40px;
-    height: 3px;
+    height: 2px;
     margin-top: 5px;
 }
 .meal
@@ -553,7 +553,7 @@ h5
 }
 .meal:hover .green
 {
-    width: 17%;
+    width: 18%;
     transition-duration: 1s;
 }
 .circle
@@ -570,29 +570,16 @@ h5
 {
     background-color: #fff;
     transition-duration: 1s;
+    transform: rotate(360deg);
 }
+
 .verified
 {
-    width: 3px;
-    height: 7px;
-    transform: rotate(-45deg);
-    transform-origin: bottom;
-    position: absolute;
-    /*background-color: #99e2d0;*/
+    color: transparent;
+    font-size: 12px;
 }
-.verified::after
-{
-    width: 3px;
-    height: 10px;
-    transform: rotate(90deg);
-    transform-origin: bottom;
-    /*background-color: #99e2d0;*/
-}
+
 .meal:hover .verified
 {
-    background-color: #99e2d0;
-}
-.meal:hover .verified::after
-{
-    background-color: red;
+    color: #99e2d0;
 }
