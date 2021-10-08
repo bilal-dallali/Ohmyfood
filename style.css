@@ -509,6 +509,49 @@ h5
     box-shadow: 5px 5px 5px 5px #e7e7e7;
     border-radius: 20px;
 }
+.meal-1
+{
+    animation: Opacity 200ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-2
+{
+    animation: Opacity 800ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-3
+{
+    animation: Opacity 1200ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
 .content
 {
     background-color: #fff;
