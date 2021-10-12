@@ -474,7 +474,8 @@ h5
 {
     display: flex;
     flex-direction: column;
-    width: auto;
+    justify-content: center;
+    width: 100%;
 }
 .meal-parts
 {
@@ -503,7 +504,7 @@ h5
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 92%;
+    width: 100%;
     height: 85px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -534,7 +535,7 @@ h5
 }
 .meal-2
 {
-    animation: Opacity 800ms;
+    animation: Opacity 1000ms;
 }
 @keyframes Opacity{
     0%
@@ -548,7 +549,21 @@ h5
 }
 .meal-3
 {
-    animation: Opacity 1200ms;
+    animation: Opacity 1800ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-4
+{
+    animation: Opacity 2600ms;
 }
 @keyframes Opacity{
     0%
@@ -604,6 +619,8 @@ h5
 .meal:hover .content
 {
     border-radius: 20px 0 0 20px;
+    width: 82%;
+    transition-duration: 1s;
 }
 .green
 {
@@ -618,6 +635,7 @@ h5
 .meal:hover .green
 {
     width: 18%;
+
     transition-duration: 1s;
 }
 .circle
@@ -636,7 +654,6 @@ h5
     transition-duration: 1s;
     transform: rotate(360deg);
 }
-
 .verified
 {
     color: transparent;
@@ -654,12 +671,12 @@ h5
 
 
 /* RESPONSIVE PAGE 2-3-4-5 */
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1088px){
     .meals
     {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        
     }
     .meal-parts
     {
