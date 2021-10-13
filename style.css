@@ -353,7 +353,7 @@ h5
 
 
 /* RESPONSIVE PAGE 1*/
-@media screen and (min-width: 970px){
+@media screen and (min-width: 992px){
     .function-icons
     {
         display: flex;
@@ -504,7 +504,7 @@ h5
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 93%;
     height: 85px;
     margin-top: 10px;
     margin-bottom: 10px;
