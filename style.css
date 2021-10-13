@@ -291,10 +291,11 @@ a h4, p
     transition: color 4s;
     transition: transform 400ms;
 }
-.white-heart:active
+.white-heart:hover
 {
     color: #fff;
     z-index: 0;
+    transition: transform 400ms;
 }
 .pink-heart
 {
@@ -302,6 +303,7 @@ a h4, p
     z-index: 1;
     color: #c366db;
 }
+
 
 /* FOOTER */
 footer
@@ -611,12 +613,12 @@ h5
     display: flex;
     justify-content: space-between;
 }
-.meal:hover
+.meal:active
 {
     cursor: pointer;
     box-shadow: 8px 8px 8px 8px #e7e7e7;
 }
-.meal:hover .content
+.meal:active .content
 {
     border-radius: 20px 0 0 20px;
     width: 82%;
@@ -632,10 +634,9 @@ h5
     align-items: center;
     justify-content: center;
 }
-.meal:hover .green
+.meal:active .green
 {
     width: 18%;
-
     transition-duration: 1s;
 }
 .circle
@@ -648,7 +649,7 @@ h5
     align-items: center;
     justify-content: center;
 }
-.meal:hover .circle
+.meal:active .circle
 {
     background-color: #fff;
     transition-duration: 1s;
@@ -659,8 +660,7 @@ h5
     color: transparent;
     font-size: 12px;
 }
-
-.meal:hover .verified
+.meal:active .verified
 {
     color: #99e2d0;
 }
