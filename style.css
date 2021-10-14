@@ -513,6 +513,7 @@ h5
     box-shadow: 5px 5px 5px 5px #e7e7e7;
     border-radius: 20px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .all-meals
 {
@@ -613,12 +614,12 @@ h5
     display: flex;
     justify-content: space-between;
 }
-.meal:active
+.meal:hover
 {
     cursor: pointer;
     box-shadow: 8px 8px 8px 8px #e7e7e7;
 }
-.meal:active .content
+.meal:hover .content
 {
     border-radius: 20px 0 0 20px;
     width: 82%;
@@ -634,10 +635,10 @@ h5
     align-items: center;
     justify-content: center;
 }
-.meal:active .green
+.meal:hover .green
 {
     width: 18%;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 .circle
 {
@@ -649,7 +650,7 @@ h5
     align-items: center;
     justify-content: center;
 }
-.meal:active .circle
+.meal:hover .circle
 {
     background-color: #fff;
     transition-duration: 1s;
@@ -660,7 +661,7 @@ h5
     color: transparent;
     font-size: 12px;
 }
-.meal:active .verified
+.meal:hover .verified
 {
     color: #99e2d0;
 }
