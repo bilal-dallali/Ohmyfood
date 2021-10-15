@@ -30,7 +30,6 @@ h2
     display: flex;
     justify-content: center;
     padding-top: 300px;
-    z-index: -1;
     animation: loader-delay 3s;
     animation-fill-mode: forwards;
 }
@@ -96,10 +95,12 @@ h2
     0%
     {
         opacity: 1;
+        z-index: 1;
     }
     100%
     {
         opacity: 0;
+        z-index: -30;
     }
 }
 
@@ -209,6 +210,10 @@ header
 
 
 /* SECTION 2 - FUNCTION */
+#function
+{
+    z-index: 2;
+}
 #function h3
 {
     font-weight: bold;
