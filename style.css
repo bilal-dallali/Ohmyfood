@@ -20,6 +20,90 @@ h2
 }
 
 
+/* LOADER */
+.loader
+{
+    position: absolute;
+    width: 100%;
+    height: 311vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 50%;
+    z-index: 10;
+    animation: loader-delay 3s;
+    animation-fill-mode: forwards;
+}
+.letter
+{
+    color: #ae5fdb;
+    font-family: 'Shrikhand';
+    font-size: 35px;
+    letter-spacing: 10px;
+    margin-bottom: 150px;
+    animation: flash 1.2s linear infinite;
+}
+@keyframes flash {
+    0%
+    {
+        color: #ae5fdb;
+        text-shadow: 0 0 7px #ae5fdb;
+    }
+    90%
+    {
+        color: #484848;
+        text-shadow: none;
+    }
+    100%
+    {
+        color: #ae5fdb;
+        text-shadow: 0 0 7px #ae5fdb;
+    }
+}
+.letter:nth-child(1)
+{
+    animation-delay: 0.1s;
+}
+.letter:nth-child(2)
+{
+    animation-delay: 0.2s;
+}
+.letter:nth-child(3)
+{
+    animation-delay: 0.3s;
+}
+.letter:nth-child(4)
+{
+    animation-delay: 0.4s;
+}
+.letter:nth-child(5)
+{
+    animation-delay: 0.5s;
+}
+.letter:nth-child(6)
+{
+    animation-delay: 0.6s;
+}
+.letter:nth-child(7)
+{
+    animation-delay: 0.7s;
+}
+.letter:nth-child(8)
+{
+    animation-delay: 0.8s;
+}
+@keyframes loader-delay{
+    0%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+
+
 /* HEADER */
 header
 {
@@ -288,14 +372,11 @@ a h4, p
     color: #000;
     background-color: #fff;
     z-index: 2;
-    transition: color 4s;
-    transition: transform 400ms;
 }
 .white-heart:hover
 {
     color: #fff;
     z-index: 0;
-    transition: transform 400ms;
 }
 .pink-heart
 {
