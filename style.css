@@ -25,12 +25,12 @@ h2
 {
     position: absolute;
     width: 100%;
-    height: 311vh;
+    height: 100%;
     background: #fff;
     display: flex;
     justify-content: center;
-    padding-top: 50%;
-    z-index: 10;
+    padding-top: 300px;
+    z-index: -1;
     animation: loader-delay 3s;
     animation-fill-mode: forwards;
 }
@@ -103,6 +103,20 @@ h2
     }
 }
 
+body
+{
+    animation: loader-delay-body 3s;
+}
+@keyframes loader-delay-body{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
 
 /* HEADER */
 header
@@ -234,6 +248,7 @@ header
     padding-left: 30px;
     margin-right: 28px;
     align-items: center;
+    cursor: pointer;
 }
 .function-icon:hover
 {
@@ -315,7 +330,7 @@ a h4, p
 .cubeRestaurant:hover
 {
     cursor: pointer;
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition:  transform 1s;
 }
 .imgRestaurant
