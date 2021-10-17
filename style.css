@@ -95,7 +95,7 @@ h2
 @keyframes loader-delay{
     0%
     {
-        opacity: 1;
+        opacity: 0.75;
         z-index: 10;
     }
     90%
@@ -109,18 +109,16 @@ h2
     }
 }
 
-.loading-body header, .loading-body section, .loading-body footer
+.loading-body header,
+.loading-body section,
+.loading-body footer
 {
     animation: loader-delay-body 3s ease-out;
 }
 @keyframes loader-delay-body{
     0%
     {
-        opacity: 0;
-    }
-    90%
-    {
-        opacity: 1;
+        opacity: 0.25;
     }
     100%
     {
