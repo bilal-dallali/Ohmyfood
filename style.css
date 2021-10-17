@@ -646,6 +646,10 @@ h5
     {
         opacity: 0;
     }
+    99%
+    {
+        opacity: 0;
+    }
     100%
     {
         opacity: 1;
@@ -682,6 +686,104 @@ h5
 .meal-4
 {
     animation: Opacity 2600ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-5
+{
+    animation: Opacity 3200ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-6
+{
+    animation: Opacity 4000ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-7
+{
+    animation: Opacity 4800ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-8
+{
+    animation: Opacity 5600ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-9
+{
+    animation: Opacity 6400ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-10
+{
+    animation: Opacity 7200ms;
+}
+@keyframes Opacity{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.meal-11
+{
+    animation: Opacity 8000ms;
 }
 @keyframes Opacity{
     0%
