@@ -639,14 +639,10 @@ h5
 }
 .meal-1
 {
-    animation: Opacity 200ms;
+    animation: Opacity 100ms;
 }
 @keyframes Opacity{
     0%
-    {
-        opacity: 0;
-    }
-    99%
     {
         opacity: 0;
     }
@@ -657,7 +653,7 @@ h5
 }
 .meal-2
 {
-    animation: Opacity 1000ms;
+    animation: Opacity 200ms;
 }
 @keyframes Opacity{
     0%
@@ -671,7 +667,7 @@ h5
 }
 .meal-3
 {
-    animation: Opacity 1800ms;
+    animation: Opacity 300ms;
 }
 @keyframes Opacity{
     0%
@@ -685,10 +681,14 @@ h5
 }
 .meal-4
 {
-    animation: Opacity 2600ms;
+    animation: Opacity 400ms;
 }
 @keyframes Opacity{
     0%
+    {
+        opacity: 0;
+    }
+    90%
     {
         opacity: 0;
     }
@@ -699,10 +699,14 @@ h5
 }
 .meal-5
 {
-    animation: Opacity 3200ms;
+    animation: Opacity 500ms;
 }
 @keyframes Opacity{
     0%
+    {
+        opacity: 0;
+    }
+    90%
     {
         opacity: 0;
     }
@@ -713,10 +717,14 @@ h5
 }
 .meal-6
 {
-    animation: Opacity 4000ms;
+    animation: Opacity 600ms;
 }
 @keyframes Opacity{
     0%
+    {
+        opacity: 0;
+    }
+    90%
     {
         opacity: 0;
     }
@@ -727,10 +735,14 @@ h5
 }
 .meal-7
 {
-    animation: Opacity 4800ms;
+    animation: Opacity 700ms;
 }
 @keyframes Opacity{
     0%
+    {
+        opacity: 0;
+    }
+    90%
     {
         opacity: 0;
     }
@@ -741,10 +753,14 @@ h5
 }
 .meal-8
 {
-    animation: Opacity 5600ms;
+    animation: Opacity 800ms;
 }
 @keyframes Opacity{
     0%
+    {
+        opacity: 0;
+    }
+    90%
     {
         opacity: 0;
     }
@@ -755,10 +771,14 @@ h5
 }
 .meal-9
 {
-    animation: Opacity 6400ms;
+    animation: Opacity 900ms;
 }
 @keyframes Opacity{
     0%
+    {
+        opacity: 0;
+    }
+    90%
     {
         opacity: 0;
     }
@@ -769,24 +789,14 @@ h5
 }
 .meal-10
 {
-    animation: Opacity 7200ms;
+    animation: Opacity 1000ms;
 }
 @keyframes Opacity{
     0%
     {
         opacity: 0;
     }
-    100%
-    {
-        opacity: 1;
-    }
-}
-.meal-11
-{
-    animation: Opacity 8000ms;
-}
-@keyframes Opacity{
-    0%
+    90%
     {
         opacity: 0;
     }
