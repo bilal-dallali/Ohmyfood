@@ -31,7 +31,7 @@ h2
     display: flex;
     justify-content: center;
     padding-top: 300px;
-    animation: loader-delay 4s ease-in;
+    animation: loader-delay 3s ease-in;
     animation-fill-mode: forwards;
 }
 .letter
@@ -111,7 +111,7 @@ h2
 
 .loading-body header, .loading-body section, .loading-body footer
 {
-    animation: loader-delay-body 4s ease-out;
+    animation: loader-delay-body 3s ease-out;
 }
 @keyframes loader-delay-body{
     0%
@@ -400,12 +400,13 @@ a h4, p
     position: absolute;
     color: #000;
     background-color: #fff;
-    z-index: 2;
+    z-index: 5;
 }
 .white-heart:active, .white-heart:hover
 {
     color: #fff;
-    z-index: 0;
+    z-index: -30;
+    display: none;
 }
 .pink-heart
 {
@@ -416,7 +417,7 @@ a h4, p
 .white-heart:active .pink-heart, .white-heart:hover .pink-heart
 {
     position: relative;
-    z-index: -1;
+    z-index: 100;
     display: none;
 }
 
