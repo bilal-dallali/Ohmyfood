@@ -412,7 +412,7 @@ a h4, p
     z-index: 1;
     color: #c366db;
 }
-.white-heart:active .pink-heart, .white-heart:hover .pink-heart
+.white-heart:active .pink-heart
 {
     position: relative;
     z-index: 100;
