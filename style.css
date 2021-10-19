@@ -95,12 +95,13 @@ h2
 @keyframes loader-delay{
     0%
     {
-        opacity: 0.75;
+        opacity: 1;
         z-index: 10;
     }
     90%
     {
         z-index: 10;
+        opacity: 0.8;
     }
     100%
     {
@@ -118,7 +119,11 @@ h2
 @keyframes loader-delay-body{
     0%
     {
-        opacity: 0.25;
+        opacity: 0;
+    }
+    90%
+    {
+        opacity: 0.2;
     }
     100%
     {
@@ -342,8 +347,8 @@ a h4, p
 .cubeRestaurant:hover
 {
     cursor: pointer;
-    /*transform: scale(1.01);
-    transition:  transform 1s;*/
+    transform: scale(1.01);
+    transition:  transform 0.4s;
 }
 .imgRestaurant
 {
@@ -389,34 +394,56 @@ a h4, p
     flex-direction: row;
     justify-content: space-between;
 }
-.cubeRestaurant i
+.heart
 {
-    margin-top: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.heart-page-2
+{
+    margin-top: 0;
 }
 .white-heart
 {
-    position: absolute;
     color: #000;
-    background-color: #fff;
-    z-index: 5;
-}
-.white-heart:active, .white-heart:hover
-{
-    color: #fff;
-    z-index: -30;
-    display: none;
+    position: absolute;
 }
 .pink-heart
 {
-    position: relative;
-    z-index: 1;
-    color: #c366db;
+    color: transparent;
 }
-.white-heart:active .pink-heart
+.heart:hover .white-heart, .heart:active .white-heart
 {
-    position: relative;
-    z-index: 100;
-    display: none;
+    color: #c366db;
+    animation: white-heart-animation 1s ease-in;
+}
+@keyframes white-heart-animation{
+    0%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+.heart:hover .pink-heart, .heart:active .pink-heart
+{
+    color: #c366db;
+    animation: heart-animation 1s ease-in;
+}
+@keyframes heart-animation{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+        color: #c366db;
+    }
 }
 
 
